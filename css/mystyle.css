@@ -1,0 +1,71 @@
+body{
+  background-color:orange;
+  
+}
+
+h1{
+  color:white; font-family:Impact, Fantasy;
+}
+
+#wrap{
+	width  : 1024px;
+	margin : 0 auto;
+	
+}
+
+
+
+
+nav{ 
+   background: black; 
+   float     : left;
+   width     : 100%;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	width: 50%;
+	height:5%;
+	display:inline;
+	border right: 1px solid #bbb;
+}
+
+li: { 
+    float:left; 
+}
+
+li  a
+{
+	display:block;
+	color: white;
+	text-align: inline;
+	padding: 14px 16px;
+	
+}
+
+nav ul li{
+	border:solid 1px white;
+	float:left;
+}
+
+nav ul li:hover { 
+	background: grey;
+	 color: black;
+}
+
+#banner{
+	background: black;
+	height: 2px;
+	width: 600;
+	clear: both;
+}
+
+  
+p{
+  color:white;
+  font-size:16pt;
+  font-weight:bold;
+}
+
